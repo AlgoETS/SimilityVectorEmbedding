@@ -83,28 +83,7 @@ Pgvector also supports other distance metrics such as L2 (Euclidean), L1 (Manhat
 - **L2 Distance (Euclidean)**: Suitable for measuring the absolute differences between vectors.
 - **L1 Distance (Manhattan)**: Useful in high-dimensional data spaces.
 
-#### JSON Structure
-The `movies.json` file is structured as follows:
-- `films`: This is the root element containing an array of `film` objects.
-- `film`: Each object in the array represents a single movie and contains multiple fields describing the movie's attributes.
-
-#### Fields Description
-Each `film` object includes the following fields:
-
-- **titre**: The title of the movie.
-- **annee**: The release year of the movie.
-- **pays**: The country where the movie was produced.
-- **langue**: The language of the movie.
-- **duree**: The duration of the movie in minutes.
-- **resume**: A brief summary of the movie plot.
-- **genre**: An array listing the genres applicable to the movie.
-- **realisateur**: An object containing details about the director, including an internal ID and the director's name.
-- **scenariste**: An array of names or a single name of the screenplay writer(s).
-- **role**: An array of roles, detailing significant characters and the actors who played them. Each role includes:
-  - **acteur**: An object with an actor's ID and name.
-  - **personnage**: The character's name that the actor portrayed.
-- **poster**: A URL to an image file of the movie poster.
-- **_id**: A unique identifier for the movie within the database.
+#### JSON
 
 ![image](https://github.com/AlgoETS/SimilityVectorEmbedding/assets/13888068/608bc866-b092-4e73-81d8-be37ca5ad800)
 
@@ -137,3 +116,6 @@ Here is an example of how a movie is represented in the `movies.json`:
 - https://sbert.net
 - https://huggingface.co/spaces/mteb/leaderboard
 - https://github.com/rabbit-hole-syndrome/open-source-embeddings
+- https://sbert.net/docs/pretrained_models.html
+- https://cookbook.openai.com/examples/visualizing_embeddings_in_2d
+- https://platform.openai.com/docs/guides/embeddings
