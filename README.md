@@ -109,6 +109,13 @@ Here is an example of how a movie is represented in the `movies.json`:
 }
 ```
 
+## IMDB databased
+
+https://developer.imdb.com/non-commercial-datasets/
+
+![image](https://github.com/AlgoETS/SimilityVectorEmbedding/assets/13888068/ec763cbf-2975-444f-b065-b9be7372a6dd)
+
+
 ## Reference
 - https://www.youtube.com/watch?v=QdDoFfkVkcw
 - https://www.machinelearningplus.com/nlp/cosine-similarity/
