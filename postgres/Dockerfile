@@ -23,6 +23,13 @@ RUN git clone https://github.com/pgvector/pgvector.git && \
     make && make install && \
     cd .. && rm -rf pgvector
 
-# start the postgres server
+# Install pg_trgm extension
+RUN apt-get update && \
+    apt-get install -y postgresql-contrib && \
+    rm -rf /var/lib/apt/lists/*
 
+# Create the extensions in the database
+COPY init-db.sh /docker-entrypoint-initdb.d/
+
+# Start the postgres server
 CMD ["postgres"]
