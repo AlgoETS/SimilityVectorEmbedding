@@ -7,7 +7,12 @@
 ### Overview
 This project demonstrates the power of natural language processing combined with vector databases to efficiently find similar movies based on their descriptions and metadata. Using technologies such as PostgreSQL with pgvector and advanced NLP models, this project provides a robust solution for similarity searches in large datasets.
 
-81b591aa4b57b7623e7201ac1b697eb44fe84c14
+
+![Animation8](https://github.com/user-attachments/assets/2bd8ae0c-1b24-4774-865d-244b58a4f362)
+![Animation13](https://github.com/user-attachments/assets/1f9a2fa3-b195-4f2d-bb38-eb4a218e2eaf)
+![Animation9](https://github.com/user-attachments/assets/e688a0dd-61e3-493e-aee1-b582f313c182)
+
+
 ### Usage
 Use the Jupyter notebook. This could include generating embeddings, inserting data into the database, or querying for similar movies.
 
