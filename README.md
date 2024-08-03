@@ -7,14 +7,8 @@
 ### Overview
 This project demonstrates the power of natural language processing combined with vector databases to efficiently find similar movies based on their descriptions and metadata. Using technologies such as PostgreSQL with pgvector and advanced NLP models, this project provides a robust solution for similarity searches in large datasets.
 
-### Installation
-Install all required libraries and dependencies:
-```bash
-pip install transformers psycopg2 numpy boto3 torch scikit-learn matplotlib nltk sentence-transformers
-```
-
 ### Usage
-Run the main Python script or use the Jupyter notebook included in the repository to interact with the project's functionalities. This could include generating embeddings, inserting data into the database, or querying for similar movies.
+Use the Jupyter notebook. This could include generating embeddings, inserting data into the database, or querying for similar movies.
 
 ### Database Setup and Data Handling
 
@@ -28,24 +22,8 @@ docker-compose up -d
 ![image](https://github.com/AlgoETS/SimilityVectorEmbedding/assets/13888068/86c8b625-8fc6-4727-9c9c-efaf85cc88d1)
 
 
-#### Insert Data
-Use the `insert_movies(movie_data, embeddings)` function to load movie data along with generated embeddings into the database.
-
 ### Working with Embeddings
 Discuss how embeddings are generated using models like BERT or Sentence Transformers, and how they are utilized within pgvector to perform fast and efficient cosine similarity searches.
-
-### Restoring a Database Backup
-Provide steps to restore a PostgreSQL database from a backup file using Docker:
-```bash
-# Stop the current PostgreSQL container
-docker-compose down
-
-# Start a new PostgreSQL instance
-docker-compose up -d
-
-# Restore the database from a backup file
-docker exec -i [container_name] pg_restore -U [username] -d [database_name] < [backup_file_path]
-```
 
 ### Finding Similar Movies
 Detail the SQL queries and Python functions used to find movies similar to a given query movie based on embeddings similarity.
@@ -126,3 +104,8 @@ https://developer.imdb.com/non-commercial-datasets/
 - https://sbert.net/docs/pretrained_models.html
 - https://cookbook.openai.com/examples/visualizing_embeddings_in_2d
 - https://platform.openai.com/docs/guides/embeddings
+- https://colab.research.google.com/github/qdrant/examples/blob/master/qdrant_101_audio_data/03_qdrant_101_audio.ipynb
+- https://qdrant.tech/documentation/examples/recommendation-system-ovhcloud/
+- https://colab.research.google.com/github/qdrant/examples/blob/master/qdrant_101_text_data/qdrant_and_text_data.ipynb
+- https://www.youtube.com/watch?v=Vkazja71BkA
+- https://www.youtube.com/watch?v=p1LtVo_1Q7A
