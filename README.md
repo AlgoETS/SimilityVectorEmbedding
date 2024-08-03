@@ -7,29 +7,11 @@
 ### Overview
 This project demonstrates the power of natural language processing combined with vector databases to efficiently find similar movies based on their descriptions and metadata. Using technologies such as PostgreSQL with pgvector and advanced NLP models, this project provides a robust solution for similarity searches in large datasets.
 
-<<<<<<< HEAD
-=======
-![Animation8](https://github.com/user-attachments/assets/2ba851d2-5eba-4b55-95fe-76a906f16b32)
-
-![Animation9](https://github.com/user-attachments/assets/c95633ee-e1d0-4c97-9a49-7cdf8473bcd6)
-
-### Installation
-Install all required libraries and dependencies:
-```bash
-pip install transformers psycopg2 numpy boto3 torch scikit-learn matplotlib nltk sentence-transformers
-```
-
->>>>>>> 81b591aa4b57b7623e7201ac1b697eb44fe84c14
+81b591aa4b57b7623e7201ac1b697eb44fe84c14
 ### Usage
 Use the Jupyter notebook. This could include generating embeddings, inserting data into the database, or querying for similar movies.
 
 ### Database Setup and Data Handling
-
-#### Starting PostgreSQL with pgvector
-Ensure PostgreSQL is running with the pgvector extension, which allows efficient handling of vector data for fast similarity searching:
-```bash
-docker-compose up -d
-```
 ### Database
 
 ![image](https://github.com/AlgoETS/SimilityVectorEmbedding/assets/13888068/86c8b625-8fc6-4727-9c9c-efaf85cc88d1)
