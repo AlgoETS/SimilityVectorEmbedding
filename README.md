@@ -12,6 +12,8 @@ This project demonstrates the power of natural language processing combined with
 ![Animation13](https://github.com/user-attachments/assets/1f9a2fa3-b195-4f2d-bb38-eb4a218e2eaf)
 ![Animation9](https://github.com/user-attachments/assets/e688a0dd-61e3-493e-aee1-b582f313c182)
 
+![Capture3](https://github.com/user-attachments/assets/ce23c1e3-74be-4fd8-9333-1e5c7b9cc8bf)
+
 
 ### Usage
 Use the Jupyter notebook. This could include generating embeddings, inserting data into the database, or querying for similar movies.
