@@ -7,7 +7,6 @@
 ### Overview
 This project demonstrates the power of natural language processing combined with vector databases to efficiently find similar movies based on their descriptions and metadata. Using technologies such as PostgreSQL with pgvector and advanced NLP models, this project provides a robust solution for similarity searches in large datasets.
 
-https://espace.etsmtl.ca/id/eprint/2576/2/BOUCHER_CHARBONNEAU_Kristof.pdf
 
 ![Animation8](https://github.com/user-attachments/assets/2bd8ae0c-1b24-4774-865d-244b58a4f362)
 ![Animation13](https://github.com/user-attachments/assets/1f9a2fa3-b195-4f2d-bb38-eb4a218e2eaf)
@@ -112,3 +111,4 @@ https://developer.imdb.com/non-commercial-datasets/
 - https://colab.research.google.com/github/qdrant/examples/blob/master/qdrant_101_text_data/qdrant_and_text_data.ipynb
 - https://www.youtube.com/watch?v=Vkazja71BkA
 - https://www.youtube.com/watch?v=p1LtVo_1Q7A
+- https://espace.etsmtl.ca/id/eprint/2576/2/BOUCHER_CHARBONNEAU_Kristof.pdf
